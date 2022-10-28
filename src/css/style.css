@@ -1,0 +1,59 @@
+* {
+  font-family: public sans, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+.thebank {
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  margin-left: 10px;
+  margin-right: 869;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.63px;
+}
+.button:hover {
+  background-color: #5bc241;
+  height: 40px;
+  width: 55px;
+  color: #ffffff;
+  cursor: pointer;
+  justify-content: center;
+  padding: 5px;
+}
+.button-cadastro {
+  justify-content: center;
+  background-color: #5bc241;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 127px;
+  height: 39px;
+}
+.button-cadastro:hover {
+  justify-content: center;
+  background-color: #5bc241;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 127px;
+  height: 39px;
+}
